@@ -85,7 +85,22 @@
                         <state key="normal" title="В корзину">
                             <color key="titleColor" systemColor="secondarySystemBackgroundColor"/>
                         </state>
+                        <connections>
+                            <action selector="addBusketButton:" destination="gTV-IL-0wX" eventType="touchUpInside" id="RKf-op-yIC"/>
+                        </connections>
                     </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NbH-Od-Phw">
+                        <rect key="frame" x="20" y="264" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="la6-Bq-l6i">
+                        <rect key="frame" x="352" y="264" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                 </subviews>
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
@@ -100,8 +115,11 @@
                 <constraint firstAttribute="trailing" secondItem="6YE-YQ-HS3" secondAttribute="trailing" id="OaC-HR-qKX"/>
                 <constraint firstItem="tEc-0d-Tn5" firstAttribute="top" secondItem="jxI-wP-l3k" secondAttribute="bottom" constant="10" id="Omq-uf-NI4"/>
                 <constraint firstItem="Chl-ar-M3V" firstAttribute="top" secondItem="W98-oS-Ci9" secondAttribute="bottom" constant="15" id="QUq-ti-hyL"/>
+                <constraint firstItem="NbH-Od-Phw" firstAttribute="top" secondItem="Chl-ar-M3V" secondAttribute="top" id="QYe-Pj-WRb"/>
+                <constraint firstAttribute="trailing" secondItem="la6-Bq-l6i" secondAttribute="trailing" constant="20" id="R2Z-fm-xQ4"/>
                 <constraint firstItem="6YE-YQ-HS3" firstAttribute="top" secondItem="tEc-0d-Tn5" secondAttribute="bottom" constant="10" id="THq-c2-nUh"/>
                 <constraint firstItem="jxI-wP-l3k" firstAttribute="top" secondItem="VcA-e5-P9t" secondAttribute="bottom" constant="10" id="TnW-1a-USj"/>
+                <constraint firstItem="la6-Bq-l6i" firstAttribute="top" secondItem="Chl-ar-M3V" secondAttribute="top" id="VQy-pU-n1s"/>
                 <constraint firstAttribute="trailing" secondItem="tEc-0d-Tn5" secondAttribute="trailing" id="Xgw-TY-vaJ"/>
                 <constraint firstItem="VcA-e5-P9t" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="YN1-gl-BzR"/>
                 <constraint firstItem="jxI-wP-l3k" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="Ztf-wR-KHA"/>
@@ -121,12 +139,14 @@
                 <constraint firstItem="57E-V6-IRf" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="q5i-BJ-Jy8"/>
                 <constraint firstItem="dgY-2F-d4P" firstAttribute="top" secondItem="57E-V6-IRf" secondAttribute="bottom" constant="10" id="q7P-x0-74z"/>
                 <constraint firstAttribute="trailing" secondItem="v4c-ln-jDg" secondAttribute="trailing" constant="15" id="t3n-hf-f1j"/>
+                <constraint firstItem="NbH-Od-Phw" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="tOX-2I-OMc"/>
                 <constraint firstItem="Chl-ar-M3V" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="vsJ-Yt-lSu"/>
                 <constraint firstItem="UaA-yX-rxq" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="80" id="xXs-cz-V8v"/>
             </constraints>
             <size key="customSize" width="414" height="604"/>
             <connections>
                 <outlet property="addButton" destination="v4c-ln-jDg" id="Nm5-u0-4zb"/>
+                <outlet property="priceLable" destination="NbH-Od-Phw" id="HCI-8D-dV7"/>
                 <outlet property="productCarbohydrates" destination="6YE-YQ-HS3" id="XCy-I2-jHs"/>
                 <outlet property="productDescription" destination="W98-oS-Ci9" id="5th-su-Pad"/>
                 <outlet property="productFats" destination="dgY-2F-d4P" id="AFi-Q8-S0f"/>
@@ -137,8 +157,9 @@
                 <outlet property="productPrice" destination="Chl-ar-M3V" id="cak-hv-k1j"/>
                 <outlet property="productProteins" destination="57E-V6-IRf" id="Sc1-4l-d3M"/>
                 <outlet property="produstCalories" destination="tEc-0d-Tn5" id="qxn-IH-WGF"/>
+                <outlet property="rubLable" destination="la6-Bq-l6i" id="Ixa-8Q-yZj"/>
             </connections>
-            <point key="canvasLocation" x="390" y="232"/>
+            <point key="canvasLocation" x="389.85507246376812" y="231.69642857142856"/>
         </collectionViewCell>
     </objects>
     <resources>

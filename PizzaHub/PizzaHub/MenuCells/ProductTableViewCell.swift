@@ -15,7 +15,6 @@ class ProductTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
 
     
@@ -25,7 +24,7 @@ class ProductTableViewCell: UITableViewCell {
         self.productPrice.text = "\(product.prise)"
     }
         
-    }
+}
     
 
 

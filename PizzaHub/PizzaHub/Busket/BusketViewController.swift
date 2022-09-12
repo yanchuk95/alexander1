@@ -9,10 +9,15 @@ import UIKit
 
 class BusketViewController: UIViewController {
 
+    
+    @IBOutlet weak var orderTableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+       
 
     }
     
 
 }
+

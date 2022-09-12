@@ -197,22 +197,6 @@
             </objects>
             <point key="canvasLocation" x="-872.46376811594212" y="113.83928571428571"/>
         </scene>
-        <!--Корзина-->
-        <scene sceneID="C9c-os-d0I">
-            <objects>
-                <viewController storyboardIdentifier="BusketViewController" id="3fq-hV-Ril" customClass="BusketViewController" customModule="PizzaHub" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="qks-fr-r9E">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="FKg-Y4-Yd2"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Корзина" image="cart" catalog="system" id="PpG-es-bhV"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vcz-Ff-kVS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-872" y="1635"/>
-        </scene>
         <!--Доставка-->
         <scene sceneID="VAK-6a-gGI">
             <objects>
@@ -234,7 +218,7 @@
                                     <constraint firstAttribute="height" constant="30" id="N50-qP-84E"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ваш мобильный телефон" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qt7-yc-vTV">
                                 <rect key="frame" x="16" y="142" width="382" height="21"/>
@@ -252,7 +236,7 @@
                                 <rect key="frame" x="64" y="165.5" width="334" height="34"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Улица" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1J6-i4-GFY">
                                 <rect key="frame" x="16" y="215.5" width="382" height="30"/>
@@ -264,7 +248,7 @@
                                 <rect key="frame" x="16" y="255.5" width="382" height="41"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Дом" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bEe-8y-7yK">
                                 <rect key="frame" x="16" y="312.5" width="100" height="20.5"/>
@@ -280,7 +264,7 @@
                                     <constraint firstAttribute="width" constant="100" id="DfI-Jx-slD"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="D9N-DD-4ia">
                                 <rect key="frame" x="157" y="343" width="100" height="34"/>
@@ -289,7 +273,7 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="XtO-3K-jea"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kil-i9-pDM">
                                 <rect key="frame" x="298" y="343" width="100" height="34"/>
@@ -298,7 +282,7 @@
                                     <constraint firstAttribute="width" constant="100" id="pOP-hl-yMD"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Квартира" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F67-eK-XY1">
                                 <rect key="frame" x="169.5" y="312.5" width="75.5" height="21"/>
@@ -325,7 +309,7 @@
                                     <constraint firstAttribute="width" constant="100" id="Vd3-UA-0cJ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NOU-en-aJa">
                                 <rect key="frame" x="157" y="418" width="100" height="34"/>
@@ -334,7 +318,7 @@
                                     <constraint firstAttribute="width" constant="100" id="Xc6-XQ-HnF"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Домофон" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SCz-tV-O81">
                                 <rect key="frame" x="169" y="387" width="76" height="21"/>
@@ -352,7 +336,7 @@
                                 <rect key="frame" x="16" y="513" width="382" height="34"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Способ оплаты" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8nd-9q-6ZZ">
                                 <rect key="frame" x="16" y="567" width="382" height="21"/>
@@ -368,6 +352,9 @@
                                     <constraint firstAttribute="width" secondItem="Har-w0-Jw9" secondAttribute="height" multiplier="16:5" id="zef-qh-hdB"/>
                                 </constraints>
                                 <state key="normal" title="Картой"/>
+                                <connections>
+                                    <action selector="cartAct:" destination="gcY-2Z-Hia" eventType="touchUpInside" id="x47-d0-PON"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qV0-8O-Bkc">
                                 <rect key="frame" x="16" y="604" width="100" height="31.5"/>
@@ -389,6 +376,9 @@
                                     <constraint firstAttribute="width" constant="100" id="Mk0-3Z-0qU"/>
                                 </constraints>
                                 <state key="normal" title="Онлайн"/>
+                                <connections>
+                                    <action selector="onlineAct:" destination="gcY-2Z-Hia" eventType="touchUpInside" id="xSN-9z-g8i"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OpA-pC-a6g">
                                 <rect key="frame" x="16" y="743" width="382" height="50"/>
@@ -397,6 +387,9 @@
                                     <constraint firstAttribute="width" secondItem="OpA-pC-a6g" secondAttribute="height" multiplier="191:25" id="WsJ-w9-ci9"/>
                                 </constraints>
                                 <state key="normal" title="Сохранить"/>
+                                <connections>
+                                    <action selector="saveButton:" destination="gcY-2Z-Hia" eventType="touchUpInside" id="deO-iF-Qig"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="DIO-Ch-H6E"/>
@@ -517,6 +510,16 @@
             </objects>
             <point key="canvasLocation" x="-872" y="903"/>
         </scene>
+        <!--BusketStoryboard-->
+        <scene sceneID="RsQ-VI-Moi">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="BusketStoryboard" storyboardName="BusketStoryboard" id="bZo-fm-b0m" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="wr3-Xa-eZu"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GdX-2i-bJl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-900" y="1430"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="o6p-0g-EM9">
             <objects>
@@ -528,8 +531,8 @@
                     </tabBar>
                     <connections>
                         <segue destination="P88-0I-n4o" kind="relationship" relationship="viewControllers" id="DHz-Aj-BUG"/>
-                        <segue destination="3fq-hV-Ril" kind="relationship" relationship="viewControllers" id="2e8-c6-bB7"/>
                         <segue destination="gcY-2Z-Hia" kind="relationship" relationship="viewControllers" id="bZI-p5-wQT"/>
+                        <segue destination="bZo-fm-b0m" kind="relationship" relationship="viewControllers" id="ZoR-ld-chH"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J9j-mT-jV5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -539,7 +542,6 @@
     </scenes>
     <resources>
         <image name="book" catalog="system" width="128" height="102"/>
-        <image name="cart" catalog="system" width="128" height="102"/>
         <image name="paperplane" catalog="system" width="128" height="118"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
